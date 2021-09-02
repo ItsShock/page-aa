@@ -1,0 +1,2265 @@
+* 
+{
+    margin: 0; 
+    padding: 0;
+}
+
+.containerMain
+{
+    margin: 0 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.container 
+{
+    margin: 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    width: 100%;
+    flex-direction: column;
+}
+
+.upperContactFooter
+{
+    display: flex;
+    background-color: #2E2E2E;
+    width: 100%;
+    height: 36px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.upperContactFooter span
+{
+    display: flex;
+    padding: 20px;
+}
+
+.telephone
+{
+    display: flex;
+    align-items: center;
+    margin-left: 19.5%;
+}
+
+.email
+{
+    display: flex;
+    align-items: center;
+}
+
+.facebook 
+{
+    display: flex;
+    align-items: center;
+}
+
+.phoneImg
+{
+    margin-right: 5px;
+}
+
+.emailImg
+{
+    margin-right: 5px;
+}
+
+.facebookImg
+{
+    margin-right: 5px;
+}
+
+.logo
+{
+    background-color: #e3e3e3;
+    width: 100%;
+}
+
+.background
+{
+    background-image: url(/img/_bg@1X.png);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: 2100px 40px;
+}
+
+.logoImg
+{
+    margin: 25px 0px;
+    margin-right: 100px;
+    margin-left: -265px;
+}
+
+.searchBtn
+{
+    width: 40px;
+    height: 40px;
+    background-color: #2E2E2E;
+    outline: none;
+    border: #2E2E2E;
+    margin-right: 120px;
+}
+
+.searchBtn:hover
+{
+    cursor: pointer;
+}
+
+.icon-search
+{
+    color: #e3e3e3;
+}
+
+.searchBtn:active
+{
+    border-style: outset;
+}
+
+.language
+{
+    font-family: 'myriad-pro', sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.plFlag
+{
+    width:"20px";
+    height:"12px";
+    margin-right: 5px;
+}
+
+#arrowDownFlag
+{
+    font-size: 10px;
+}
+
+.icon-down-open-big:hover
+{
+    cursor: pointer;
+}
+
+.separateLineHeader
+{
+    height: 34px;
+    border: 1px solid #d7d7d7;
+    color: #979797;
+    margin: 0 10px;
+}
+
+.account
+{
+    font-family: 'myriad-pro', sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 12px;
+}
+
+.account:hover
+{
+    cursor: pointer;
+}
+
+.bgBasket
+{
+    position: absolute;
+    top: 0px;
+    right: 20%;
+    z-index: 1;
+    background-image: url(/img/Warstwa\ 683@1X.png);
+    background-position: -250px 0px;
+    width: 9%;
+    height: 17%;
+    clip-path: polygon(0% 0%, 100% 0, 100% 80%, 52% 96%, 0 80%);
+    background-color: #B62323;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bgBasket:hover
+{
+    transition: all 1s;
+    cursor: pointer;
+    background-position: -280px 0px;
+}
+
+
+.basket
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.cartQuantity
+{
+    width: 21px;
+    height: 21px;
+    background: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    font-family: 'myriad-pro', sans-serif;
+    font-size: 12px;
+    color: #B62323;
+    margin-top: -45px;
+    margin-left: -10px;
+}
+
+
+.background h3
+{
+    font-family: 'myriad-pro', sans-serif;
+    font-size: 11px;
+    color: #ffffff;
+    z-index: 2;
+    width: 80px;
+    height: auto;
+}
+
+.background:hover h3,h4
+{
+    cursor: pointer;
+}
+
+.background h4
+{
+    font-family: 'myriad-pro', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    z-index: 2;
+    margin-left: 5px;
+}
+
+.basketRank:hover
+{
+    cursor: pointer;
+}
+
+input
+{
+    
+    width: 280px;
+    height: 41px;
+    border: none;
+    opacity: 0.7019607843137254;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 15px;
+    font-size: 12px;
+}
+
+.menu
+{
+    display: flex;
+    background: #ffffff;
+    flex-direction: column;
+}
+
+.menuLinks
+{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    height: 62px;
+    margin-left: -278px;
+}
+
+.menuLinks div p:hover
+{
+    cursor: pointer;
+}
+
+.menuLinks p:hover
+{
+    cursor: pointer;
+    color: #DC363D;
+}
+
+.menuLinks p
+{
+    margin-right: 10px;
+    margin-left: 50px;
+}
+
+.menuLinks div
+{
+    display: flex;
+}
+
+.redLineMenu
+{
+    width: 116px;
+    height: 4px;
+    background-color: #DC363D;
+    position:relative;
+    top: 35px;
+    left: -100px;
+}
+
+.pagePath
+{
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    margin: 11px 0;
+}
+
+.pathNameOfProduct
+{
+    font-weight: bold;
+}
+
+.home
+{
+    margin-left: -144.5%;
+}
+
+.imgProductsAndDescription
+{
+    display: flex;
+    margin-top: 25px;
+}
+
+.leftSlideImg
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon-up-open-big:hover
+{
+    cursor: pointer;
+}
+
+.firstPhotoFrame
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.firstPhotoFrame:hover
+{
+    cursor: pointer;
+}
+
+.photoFrame
+{
+    width: 82px;
+    height: 82px;
+    border: 2px solid #EBEBEB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0;
+}
+
+.photoFrame:hover
+{
+    cursor: pointer;
+    border: 2px solid #DC363D;
+}
+
+.imgRedLine
+{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.mainImg
+{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    height: 585px;
+    margin-left: 30px;
+}
+
+.polygon
+{   
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    align-self: flex-start;
+    width: 90px;
+    height: 40px;
+    background-color: #CE2E2A;
+    margin-right: 15px;
+    margin-top: -3px;
+    clip-path: polygon(39% 20%, 39% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 81%, 25% 50%);
+}
+
+.polygon p
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 8px;
+    margin-right: 4px;
+}
+
+.description
+{
+    font-size: 11px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nameOfProduct
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    width: 380px;
+}
+
+.dye
+{
+    color: #B62323;
+}
+
+.imgSildesMini
+{
+    display: flex;
+
+}
+
+.photoFrameMini
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 68px;
+    height: 68px;
+}
+
+.photoFrameMini:hover
+{
+    cursor: pointer;
+}
+
+.imgRedLineMini
+{
+    margin-bottom: -5px;
+    margin-top: 10px;
+}
+
+.photoFrameMiniWithBorder
+{
+    width: 68px;
+    height: 68px;
+    border: 2px solid #EBEBEB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 8px;
+}
+
+.photoFrameMiniWithBorder:hover
+{
+    cursor: pointer;
+    border: 2px solid #DC363D;
+}
+
+.photoFrameMiniWithBorderLast
+{
+    width: 68px;
+    height: 68px;
+    border: 2px solid #EBEBEB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0px;
+}
+
+.photoFrameMiniWithBorderLast:hover
+{
+    cursor: pointer;
+    border: 2px solid #DC363D;
+}
+
+.inputsWithProperties
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+select
+{
+    width: 236px;
+    height: 45px;
+    padding-left: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.greenSquare
+{
+    width: 29px;
+    height: 29px;
+    background-color: #8DC63F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+.shipment
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.availability
+{
+    display: flex;
+}
+
+.shipmentInfo
+{
+    color: #B62323;
+    text-decoration: none;
+}
+
+.priceAndBasket
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.oldPrice
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    text-decoration: line-through;
+    color: #9D9C9C;
+    font-weight: 100;
+}
+
+.newPrice
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.counter
+{
+    width: 97.03px;
+    height: 56.03px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid #d7d7d7;
+    font-size: 18px;
+}
+
+.substract {
+    margin-left: 0px;
+    background-color: #fff;
+    color: #2E2E2E;
+    border: none;
+    padding: 0.2rem 0.6rem;
+    font-size: 17px;
+    cursor: pointer;
+    outline: none;
+}
+
+.add {
+    margin-left: 0px;
+    background-color: #fff;
+    color: #2E2E2E;
+    border: none;
+    padding: 0.2rem 0.6rem;
+    font-size: 17px;
+    cursor: pointer;
+    outline: none;
+}
+
+.addToBasket
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 185px;
+    height: 60px;
+    background-color: #B62323;
+    background-image: url(/img/Warstwa708@1X.png);
+    background-position:360px 245px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 13px;
+}
+
+.addToBasket:hover
+{
+    transition: 1s;
+    cursor: pointer;
+    background-position:320px 245px;
+}
+
+.negotiation
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.priceNegotiation
+{
+    display: flex;
+}
+
+.productCheaper
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #202020;
+}
+
+.goodPrice
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    color: #B62323;
+}
+
+.goodPrice:hover
+{
+    cursor: pointer;
+}
+
+.comparison
+{
+    color: #B62323;
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+.comparison:hover
+{
+    cursor: pointer;
+}
+
+.returnAndWarranty
+{
+    width: 490px;
+    height: 142px;
+    border: 2px solid #d7d7d7;
+    display: grid;
+    grid-column:auto;
+}
+
+.freeDeliveryAndReturn
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.freeDelivery
+{
+    display: flex;
+    align-items: center;
+}
+
+.freeDeliveryText1
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: #202020;
+}
+
+.freeDeliveryText2
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    color: #9D9C9C;
+}
+
+.return
+{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+
+.returnText1
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: #202020;
+}
+
+.returnText2
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    color: #9D9C9C;
+}
+
+.installment
+{
+    display: flex;
+    align-items: center;
+    margin-right: 60px;
+}
+
+.installmentText1
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: #202020;
+}
+
+.installmentText2
+{
+    font-family: 'Montserrat', sans-serif;
+    color: #B62323;
+}
+
+.installmentText2:hover
+{
+    cursor: pointer;
+}
+
+.installmentAndWarranty
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.warranty
+{
+    display: flex;
+    align-items: center;
+}
+
+.warrantyText1
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: #2E2E2E;
+}
+
+.sectionTwo
+{
+   display: flex;
+   justify-content: space-between; 
+}
+
+.chooseAdditionally
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    margin-left: -885px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.chooseAdditionallyProducts
+{
+    display: flex;
+    margin-top: 50px;
+}
+
+.chooseAdditionallyProductsMask
+{
+    display: flex;
+    margin: 0 64px;
+}
+
+.chooseAdditionallyProductsMask:hover
+{
+    cursor: pointer;
+    transition: 1s;
+    transform: scale(1.05);
+}
+
+.maskDescription
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    width: 140px;
+}
+
+.maskPrice
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.separateLine
+{
+    width: 2px;
+    height: 91px;
+    background-color: #EBEBEB;
+}
+
+.productDescriptionTitle
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    margin-left: -855px;
+    margin-top: 60px;
+    align-items: center;
+}
+
+.productDescriptionText
+{
+    width: 778px;
+    text-align: left;
+    margin-right: 140px;
+}
+
+.productDescription
+{
+    display: flex;
+    font-family: 'Arial', sans-serif;
+    font-size: 12px;
+    color: #333333;
+    justify-content: space-between;
+}
+
+.firstText
+{
+    line-height: 20px;
+    margin-top: 20px;
+}
+
+.secondText
+{
+    margin-top: 30px;
+    line-height: 20px;
+}
+
+.thirdText
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 13.5px;
+    margin-top: 50px;
+}
+
+.fourthText
+{
+    font-family: 'myriad-pro', sans-serif;
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+.fourthTextInside
+{
+    font-family: 'Open Sans', sans-serif;
+    width: 700px;
+    margin-top: 10px;
+}
+
+.fifthText
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'myriad-pro', sans-serif;
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+.separateLineVertical
+{
+    width: 672px;
+    height: 2px;
+    background-color: #E1E1E1;
+    margin-top: 20px;
+}
+
+.serviceAndInfo
+{
+    width: 300px;
+    text-align: center;
+}
+
+.imgMan
+{
+    float: left;
+    margin-top: 18px;
+}
+
+.service
+{
+    width: 286px;
+    height: 141px;
+    background-color: #E01A4E;
+    background-image: url(/img/Warstwa708@1X.png);
+    background-position:462px 335px;
+    background-size:194%;
+}
+
+.service h3
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #ffffff;
+    position: relative;
+    top: 25px;
+    left: -10px;
+}
+
+.service h5
+{
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 400;
+    opacity: 0.7;
+    position: relative;
+    top: 24px;
+    left: -10px;
+}
+
+.service div
+{
+    width: 133px;
+    height: 26px;
+    border: 2px solid #EBEBEB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 11px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    position: relative;
+    top: 35px;
+    left: 20px;
+}
+
+.service div:hover
+{
+    transition: 1s;
+    cursor: pointer;
+    font-size: 13px;
+    transform: scale(1.05);
+}
+
+.infoProduct
+{
+    width: 262px;
+    height: 373px;
+    background-color: #ffffff;
+    margin-top: 5px;
+    z-index: 3;
+    position: absolute;
+    text-align: left;
+    padding-top: 25px;
+    padding-left: 22px;
+}
+
+.imgWarstwaSercive
+{
+    z-index: 2;
+    position: relative;
+    left: -76px;
+    top: 150px;
+}
+
+.imgWarstwaBlue
+{
+    position: relative;
+    left: 210px;
+    top: -48px;
+}
+
+.infoText
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #2E2E2E;
+    margin-bottom: 10px;
+}
+
+.questions
+{
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 13.5px;
+    margin-top: 15px;
+}
+
+.questionsButton
+{
+    width: 219px;
+    height: 43px;
+    background-color: #DC363D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-left: 15px;
+    background-image: url(/img/Warstwa708@1X.png);
+    background-position:335px 240px;
+    background-size: 190%;
+}
+
+.questionsButton:hover
+{
+    cursor: pointer;
+    transition: 1s;
+    background-position:320px 240px;
+}
+
+.adviceTitle
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    margin-left: -815px;
+    margin-top: 60px;
+    align-items: center;
+}
+
+.adviceBoxes
+{
+    display: flex;
+    margin-left: 110px;
+}
+
+.adviceBox
+{
+    width: 520px;
+    display: flex;
+    margin-right: 90px;
+}
+
+.adviceBoxesTitle
+{
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 257px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    margin-left: -180px;
+}
+
+.adviceBoxesTitle2
+{
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 257px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.adviceImgBorder
+{
+    width: 242px;
+    height: 203px;
+    background-image: url(/img/Warstwa\ 679@1X.png);
+    background-position: -65px -15px;
+    margin-left: -53px;
+}
+
+.adviceImgBorder2
+{
+    width: 242px;
+    height: 203px;
+    background-image: url(/img/Warstwa\ 680@1X.png);
+    background-position: -95px -25px;
+}
+
+.adviceText
+{
+    width: 264px;
+    height: 157px;
+    text-align: left;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    line-height: 25px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.footer
+{
+    background-image: url(/img/Inteligentny\ obiekt\ wektorowy@1X.png);
+    width: 100%;
+    height: 540px;
+    display: flex;
+    align-items: flex-end;
+    opacity: 0.2;
+    margin-top: 80px;
+    z-index: 0;
+    background-position: -70px 0px;
+}
+
+.footerImg
+{
+    background-image: url(/img/Prostokąt\ 48\ kopia\ 2@1X.png);
+    width: 100%;
+    height: 438px;
+    margin-top: -425px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgFooter1
+{
+    position: relative;
+    left: -330px;
+}
+
+.imgFooter2
+{
+    position: relative;
+    left: -390px;
+    top: -15px;
+}
+
+.imgFooter3
+{
+    position: relative;
+    left: 405px;
+    top: -12px;
+}
+
+.imgFooter4
+{
+    position: relative;
+    top: -65px;
+    left: 400px;
+}
+
+.imgFooter5
+{
+    position: relative;
+    top: -40px;
+    left: 395px;
+}
+
+.imgFooter6
+{
+    position: relative;
+    top: -50px;
+    left: 325px;
+}
+
+.lastFooterImg
+{
+    position: relative;
+    top: -24px;
+    right: -330px;
+}
+
+.footerBoxes
+{
+    font-family: 'Open Sans', sans-serif;
+    color: #E0DCDC;
+    font-weight: 400;
+    font-size: 13px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 1390px;
+}
+
+.footerBoxes p
+{
+    margin-bottom: 10px;
+}
+
+.footerBoxes div p:hover
+{
+    cursor: pointer;
+}
+
+.verticalLine
+{
+    width: 2px;
+    height: 171px;
+    background-color: #ebebeb;
+    opacity: 0.12156862745098039;
+}
+
+h6
+{
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.footerInfoText
+{
+    opacity: 0.6196078431372549;
+}
+
+.socialMedia
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.socialMedia img
+{
+    margin-right: 25px;
+}
+
+.socialMedia img:hover
+{
+    cursor: pointer;
+}
+
+.myOrders div
+{
+    display: flex;
+    align-items: center;
+}
+
+.myOrders img
+{
+    margin-top: -5px;
+    margin-right: 10px;
+}
+
+.contact
+{
+    margin-top: -44px;
+}
+
+.contact h5
+{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.contact h4
+{
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1700px)
+{
+    .bgBasket
+    {
+        right: 100px;
+    }
+
+    .imgFooter1
+    {
+        left: -200px;
+    }
+
+    .imgFooter2
+    {
+        left: -260px;
+    }
+
+    
+    .imgFooter3
+    {
+        left: 250px;
+    }
+    
+    .imgFooter4
+    {
+        left: 270px;
+    }
+    
+    .imgFooter5
+    {
+        left: 260px;
+    }
+    
+    .imgFooter6
+    {
+        left: 240px;
+    }
+
+    .lastFooterImg
+    {
+        right: -220px;
+    }
+}
+
+@media screen and (max-width: 1430px)
+{
+    .bgBasket
+    {
+        right: 300px;
+    }
+
+    .imgFooter1
+    {
+        left: -50px;
+        top: 30px;
+    }
+
+    .imgFooter2
+    {
+        left: -110px;
+        top: -10px;
+    }
+
+    .imgFooter3
+    {
+        left: 150px;
+        top: 10px;
+    }
+    
+    .imgFooter4
+    {
+        left: 160px;
+        top: -40px
+    }
+    
+    .imgFooter5
+    {
+        left: 100px;
+    }
+    
+    .imgFooter6
+    {
+        left: 80px;
+        top: -30px;
+    }
+
+    .lastFooterImg
+    {
+        right: -80px;
+    }
+
+    .footerBoxes
+    {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 1270px)
+{
+
+    .telephone
+    {
+        margin-left: -1%;
+    }
+
+    .bgBasket
+    {
+        right: 10px;
+    }
+
+    .background
+    {
+        justify-content: space-between;
+    }
+
+    .background img
+    {
+        margin-left: -50px;
+        margin-right: 50px;
+    }
+
+    .account
+    {
+        margin-right: 360px;
+    }
+
+    .menuLinks
+    {
+        justify-content: center;
+    }
+
+    .menuLinks p
+    {
+        margin: 0 10px;
+    }
+
+    .menuLinks div
+    {
+        margin-right: 10px;
+    }
+
+    .lastFooterImg
+    {
+        right: -300px;
+    }
+
+    .leftSlideImg
+    {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .imgProductsAndDescription
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #arrowUp
+    {
+        display: none;
+    }
+
+    #arrowDown
+    {
+        display: none;
+    }
+
+    .imgRedLine
+    {
+        margin-top: 20px;
+        margin-bottom: -20px;
+        width: 75px;
+    }
+
+    .firstPhotoFrame
+    {
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+    }
+
+    .redLineMenu
+    {
+        width: 100px;
+        margin-right: 10px;
+        margin-left: 5px;
+    }
+
+    .photoFrame
+    {
+        margin-right: 10px;
+    }
+
+    .polygon
+    {
+        margin-left: -77px;
+    }
+
+    .imgWarstwaSercive
+    {
+        left: -90px;
+    }
+
+    .nameOfProduct
+    {
+        text-align: center;
+        margin-bottom: 15px;
+        width: 590px;
+    }
+
+    .description
+    {
+        align-items: center;
+    }
+
+    .imgSildesMini
+    {
+        margin: 15px 0px
+    }
+
+    #barrelSelect
+    {
+        margin-right: 20px;
+    }
+
+    .shipment
+    {
+        margin: 15px 0px;
+    }
+
+    .availability
+    {
+        margin-right: 63px;
+    }
+
+    .counter
+    {
+        margin: 5px 29px;
+    }
+
+    .priceNegotiation
+    {
+        margin-right: 85px;
+        margin-bottom: 15px;
+    }
+
+    .chooseAdditionally
+    {
+        margin-left: 0;
+    }
+
+    .chooseAdditionallyProducts
+    {
+        flex-direction: column;
+    }
+
+    .separateLine
+    {
+        height: 2px;
+        width: 250px;
+        margin: 25px 0px;
+        margin-left: 80px;
+    }
+
+    .productDescriptionTitle
+    {
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+
+    .productDescriptionText
+    {
+        margin: 0 0;
+    }
+
+    .productDescription
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .questions
+    {
+        justify-content: center;
+    }
+
+    .serviceAndInfo
+    {
+        margin-top: 45px;
+    }
+
+    .adviceTitle
+    {
+        margin-left: 0;
+        margin-top: 120px;
+    }
+
+    .adviceBoxes
+    {
+        flex-direction: column;
+    }
+
+    .adviceBoxesTitle
+    {
+        margin-left: 25px;
+        margin-bottom: 40px;
+    }
+
+    .adviceBoxesTitle2
+    {
+        margin-left: 90px;
+        margin-bottom: 40px;
+    }
+
+    .adviceBox
+    {
+        margin-right: 0px !important;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .adviceBoxesOne
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .adviceBoxesTwo
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .adviceText
+    {
+        margin-left: -20px;
+        width: 500px;
+        margin-top: 0;
+    }
+
+    .adviceImgBorder2
+    {
+        margin-left: -50px;
+    }
+
+    .verticalLine
+    {
+        display: none;
+    }
+
+    .footerBoxes
+    {
+        display: grid !important;
+        grid-template-columns: 250px 250px;
+        grid-template-rows: 250px 250px;
+        width: 100%;
+    }
+
+    .footerBackground
+    {
+        width: 100%;
+        height: 250px;
+        background: #171717;
+    }
+
+    .imgFooter4
+    {
+        top: -20px;
+    }
+
+    .imgFooter5
+    {
+        top: -20px;
+    }
+
+    .lastFooterImg
+    {
+        right: -50px;
+    }
+}
+
+@media screen and (max-width: 1165px)
+{
+    .menuLinks
+    {
+        margin-left: -200px;
+    }
+
+    .imgFooter1
+    {
+        left: 40px;
+    }
+
+    .imgFooter2
+    {
+        left: -20px;
+    }
+
+    .imgFooter3
+    {
+        left: 120px;
+    }
+
+    .imgFooter4
+    {
+        left: 120px;
+        top: -30px;
+    }
+
+    .imgFooter5
+    {
+        left: 50px;
+    }
+
+    .imgFooter6
+    {
+        left: 20px;
+        top: -10px;
+    }
+
+    .lastFooterImg
+    {
+        right: 0;
+        left: 10px;
+    }
+}
+
+@media screen and (max-width: 1115px)
+{
+    .menuLinks
+    {
+        margin-left: -170px;
+    }
+
+    .cartQuantitys
+    {
+        display: none;
+    }
+
+    .searchBtn
+    {
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 992px)
+{
+    .footerBackground
+    {
+        height: 390px;
+    }
+
+    .imgFooter5
+    {
+        top: -5px;
+    }
+
+    .imgFooter6
+    {
+        top: 10px;
+    }
+
+    .menuLinks
+    {
+        margin-left: -30px;
+    }
+
+    .lastFooterImg
+    {
+        left: 0;
+    }
+
+    .basket
+    {
+        margin-left: -20px;
+    }
+
+    .basket h4
+    {
+        margin-left: 26px;
+    }
+}
+
+@media screen and (max-width: 870px)
+{
+    .bgBasket
+    {
+        right: 0px;
+    }
+
+    .imgFooter6
+    {
+        left: 0px;
+    }
+
+    .searchBtn
+    {
+        margin-right: 20px;
+    }
+
+    .account
+    {
+        margin-right: 100px;
+    }
+
+    input
+    {
+        width: 160px;
+    }
+
+    .language
+    {
+        margin-left: 100px;
+    }
+
+}
+
+@media screen and (max-width: 800px)
+{
+    .imgFooter4
+    {
+        top: -10px;
+    }
+
+    .productDescriptionText
+    {
+        width: 70%;
+    }
+
+    .fourthTextInside
+    {
+        width: 70%;
+    }
+
+    .separateLineVertical
+    {
+        width: 80%;
+    }
+
+    .questions
+    {
+        flex-direction: column;
+        margin-left: -30px;
+    }
+
+    .basket h3
+    {
+        width: 60px;
+    }
+
+    .basket h4
+    {
+        margin-left: 17px;
+    }
+}
+
+@media screen and (max-width: 750px)
+{
+    .account
+    {
+        margin-right: 100px !important;
+    }
+
+    input
+    {
+        width: 140px;
+    }
+
+    .redLineMenu
+    {
+        width: 80px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .searchBtn
+    {
+        margin-right: 0px;
+        width: 90px;
+    }
+
+    .plFlag
+    {
+        margin: 0 0 !important;
+    }
+
+    .separateLineHeader
+    {
+        margin: 0 5px;
+    }
+
+    .questionsButton
+    {
+        margin-top: 15px;
+    }
+
+    .logoImg
+    {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .language
+    {
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 710px)
+{
+    .language
+    {
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width: 690px)
+{
+    .language
+    {
+        margin-left: 5px;
+    }
+
+    .menuLinks
+    {
+        margin-left: 0;
+    }
+
+    .imgFooter5
+    {
+        left: 0px;
+    }
+
+    .adviceBoxesOne
+    {
+        width: 450px;
+    }
+
+    .adviceBoxesTwo
+    {
+        width: 450px;
+    }
+
+    .adviceBoxesTitle
+    {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .adviceBoxesTitle2
+    {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .adviceBox
+    {
+        width: 450px;
+    }
+
+    .adviceText
+    {
+        width: 400px;
+    }
+
+    .background
+    {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 610px)
+{
+
+    .bgBasket
+    {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        height: 9.6%;
+        top: 36px;
+        width: 8%;
+    }
+
+    .background img
+    {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .basketRank
+    {
+        width: 60%;
+    }
+
+    .mainImg
+    {
+        margin-left: 0;
+    }
+
+    .account, .separateLineHeader, #arrowDownFlag, .plFlag, .language, .leftSlideImg, .bgBasket div
+    {
+        display: none;
+    }
+
+    .searchBtn
+    {
+        width: 40px;
+        margin-right: 84px;
+    }
+}
+
+@media screen and (max-width: 580px)
+{
+    .mainImage
+    {
+        width: 90%;
+        height: auto;
+    }
+
+    .mainImg
+    {
+        justify-content: center;
+        width: 90%;
+    }
+
+    .imgProductsAndDescription
+    {
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu, #bgc2
+    {
+        display: none;
+    }
+
+    .searchBtn
+    {
+        margin-right: 50px;
+    }
+
+    .description
+    {
+        width: 90%;
+    }
+
+    .adviceText
+    {
+        width: 90%;
+    }
+
+    .imgsFooter, .imgFooter1, .imgFooter2, .imgWarstwaSercive, .imgWarstwaBlue
+    {
+        display: none;
+    }
+
+    .adviceBox
+    {
+        width: 70%;
+    }
+
+    .adviceBoxes
+    {
+        margin-left: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .adviceBoxesOne
+    {
+        width: 80%;
+    }
+
+    .adviceBoxesTwo
+    {
+        width: 80%;
+    }
+
+    .nameOfProduct
+    {
+        width: 300px;
+    }
+
+    .imgSildesMini
+    {
+        flex-direction: column;
+    }
+
+    .inputsWithProperties
+    {
+        flex-direction: column;
+    }
+
+    .shipment
+    {
+        flex-direction: column;
+    }
+
+    .shipmentInfo
+    {
+        margin-top: 10px;
+    }
+
+    .addToBasket
+    {
+        margin-bottom: 15px;
+    }
+
+    .priceAndBasket
+    {
+        flex-direction: column;
+    }
+    
+    .priceNegotiation
+    {
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+    .comparison
+    {
+        text-align: center;
+    }
+
+    .negotiation
+    {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .freeDeliveryAndReturn
+    {
+        flex-direction: column;
+    }
+
+    .installmentAndWarranty
+    {
+        flex-direction: column;
+    }
+
+    .returnAndWarranty
+    {
+        margin-top: 20px;
+        justify-content: center;
+        width: 60%;
+        height: 200px;
+    }
+
+    .adviceTitle
+    {
+        margin-top: 400px;
+    }
+
+    .footerBoxes
+    {
+        grid-template-columns: 300px;
+        grid-template-rows: 300px;
+        gap: 80px;
+        margin-top: 50px;
+    }
+
+    .footerBackground
+    {
+        height: 650px;
+    }
+
+    .photoFrameMini
+    {
+        margin-bottom: 10px;
+        margin-left: 11px;
+    }
+
+    .photoFrameMiniWithBorderLast
+    {
+        margin-left: 8px;
+    }
+}
+
+@media screen and (max-width: 475px)
+{
+    input
+    {
+        width: 70px;
+        font-size: 7px;
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 420px)
+{
+    .upperContactFooter
+    {
+        display: none;
+    }
+
+    .bgBasket
+    {
+        top: 0;
+    }
+
+    .chooseAdditionallyProducts
+    {
+        width: 90%;
+        align-items: center;
+    }
+
+    .returnAndWarranty
+    {
+        height: 250px;
+    }
+
+    .mainImg
+    {
+        height: 30%;
+    }
+}
+
+@media screen and (max-width: 390px)
+{
+    input
+    {
+        position: relative;
+        top: 50px;
+        left: -230px;
+        width: 200px;
+        padding-left: 15px;
+        margin-left: -10px;
+    }
+
+    .searchBtn
+    {
+        position: relative;
+        top: 50px;
+        left: -230px;
+    }
+
+    .bgBasket
+    {
+        top: 50px;
+        height: 50px;
+        width: 10%;
+    }
+
+    .background
+    {
+        height: 150px;
+    }
+
+    .adviceTitle
+    {
+        width: 90%;
+    }
+
+    .nameOfProduct
+    {
+        width: 80%;
+    }
+
+    .separateLine
+    {
+        width: 60%;
+    }
+}
